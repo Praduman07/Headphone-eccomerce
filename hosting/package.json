@@ -5,10 +5,10 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "react-scripts start",
+    "start": "npm start develop",
     "strapi": "strapi",
     "build": "react-scripts build",
-    "test": "jest"
+    "test": "(eslint lib || true) && jest"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.7.0",
