@@ -7,7 +7,9 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "build": "babel src -d lib",
+    "test": "jest"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.7.0",
