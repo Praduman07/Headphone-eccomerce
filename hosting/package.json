@@ -5,10 +5,9 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
-    
+    "start": "react-scripts start",
     "strapi": "strapi",
-    "build": "babel src -d lib",
+    "build": "react-scripts build",
     "test": "jest"
   },
   "dependencies": {
