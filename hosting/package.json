@@ -7,7 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "strapi": "strapi",
-    "build": "babel src -d lib",
+    "build": "strapi bulid",
     "test": "(eslint lib || true) && jest"
   },
   "dependencies": {
