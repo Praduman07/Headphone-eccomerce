@@ -9,7 +9,7 @@ import Search from "./Search/Search";
 import Cart from "../Cart/Cart";
 import { Context } from "../../utils/context";
 import "./Header.scss";
-
+import Category from "../Home/Category/Category";
 const Header = () => {
 
     const [scrolled, setScrolled] =useState(false); // state for header appearance while scrolling //
@@ -40,7 +40,8 @@ const Header = () => {
                 <ul className="left">
                     <li onClick={() => navigate("/")}>Home</li>
                     <li>About</li>
-                    <li>Categories</li>
+                    <a href="#categories" spy={true} smooth={true} duration={500}>
+                        <li>Categories</li></a>
                 </ul>
                 <div className="center" onClick={() => navigate("/")}>LOGO.</div>
                 <div className="right">

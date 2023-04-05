@@ -12,7 +12,7 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.7.0",
     "@strapi/plugin-users-permissions": "4.7.0",
-    "@strapi/provider-upload-cloudinary": "^4.7.0",
+    "@strapi/provider-upload-cloudinary": "^4.9.0",
     "@strapi/strapi": "4.7.0",
     "pg": "8.8.0",
     "stripe": "^11.12.0"

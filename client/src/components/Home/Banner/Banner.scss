@@ -16,6 +16,7 @@
     max-width:calc(100% - 20px);
     margin:0 auto;
     position:relative;
+    flex-direction:column;
     @include md{
         flex-direction:row;
         max-width: 1200px;
@@ -25,15 +26,16 @@
     position:relative;
     z-index:9;
     width:200px;
-    margin-bottom:20px;
+    margin-top:30px;
     @include md {
-        width:400px;
+        width:300px;
         margin-top:50px;
-        margin-right:60px;
+        margin-right:100px;
         margin-bottom:0;
+        
     }
-    @include xxl {
-        width:500px;
+    @include xl {
+        width:400px;
         margin-right:0;
         margin-top:0;
     }
@@ -59,6 +61,9 @@
         line-height:1;
         margin-bottom:20px;
         @include md{
+            font-size:120px;
+        }
+        @include xl{
             font-size:180px;
         }
     }
@@ -68,7 +73,7 @@
         line-height:20px;
         margin-bottom:20px;
         @include md{
-            max-width:500px;
+            max-width:400px;
             font-size:18px;
             line-height:24px;
             margin-bottom:40px;

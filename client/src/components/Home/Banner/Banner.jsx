@@ -1,5 +1,6 @@
 import "./Banner.scss";
 import BannerImg from "../../../assets/banner-img.png";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
     return ( 
@@ -14,7 +15,8 @@ const Banner = () => {
                 </p>
                 <div className="ctas">
                     <div className="banner-cta">read more</div>
-                    <div className="banner-cta v2">shop now</div>
+                    <a href="#shopmore" spy={true} smooth={true} duration={500}>
+                    <div className="banner-cta v2">shop now</div></a>
                 </div>
             </div>
             <img className="banner-img" src={BannerImg} alt="" />

@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Cabin", sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+    
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -11,4 +14,7 @@ body {
     font-size: 16px;
     line-height: 22px;
     font-weight: 500;
+    a:link{
+        text-decoration:none;
+    }
 }
