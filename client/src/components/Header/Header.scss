@@ -8,6 +8,7 @@
     background-color:#212121;
     color:white;
     padding:0 20px;
+    z-index:1000;
     border-bottom:1px solid rgba(0, 0, 0, 0.174);
     @include md{
         padding:0 40px;
